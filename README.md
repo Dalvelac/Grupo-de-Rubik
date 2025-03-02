@@ -18,7 +18,7 @@ Este proyecto es un **simulador del Cubo de Rubik 3x3**, desarrollado en **C++**
 git clone https://github.com/Dalvelac/Grupo-de-Rubik
 cd Grupo-de-Rubik
 
-2️⃣ Compilar con CMake:
+### 2️⃣ Compilar con CMake:
 
 Si usas CLion simplemente abre el proyecto y ejecuta Build.
 Si usas terminal, compila con:
@@ -28,21 +28,22 @@ cd build
 cmake ..
 make
 
-3️⃣ Ejecutar el programa
+### 3️⃣ Ejecutar el programa
 
-📖 Uso
+### 📖 Uso
 
 Al ejecutar el programa, puedes ingresar una secuencia de movimientos para mezclar el cubo:
-
+```
 Ingrese secuencia de movimientos (ej: R U R' U'):
-
+```
 Ejemplo:
-
+```
 R U R' U' F2 D2 L'
-
+```
 Luego, se imprimirá el estado del cubo en consola.
-📂 Estructura del Proyecto
 
+# 📂 Estructura del Proyecto
+`
 Proyecto/
  ├── include/              # Archivos de cabecera (.h)
  │    ├── EstadoCubo.h
@@ -55,16 +56,14 @@ Proyecto/
  ├── main.cpp              # Punto de entrada del programa
  ├── CMakeLists.txt        # Configuración de CMake
  ├── README.md             # Documentación
+`
 
-🛠 Dependencias
-
-Este proyecto solo requiere un compilador C++ (GCC, Clang o MSVC) y CMake.
-✨ Posibles Mejoras
+### ✨ Posibles Mejoras
 
     Implementar un solucionador automático para resolver el cubo desde cualquier estado.
     Agregar una interfaz gráfica en OpenGL o SDL para una mejor visualización.
     Soporte para otras variantes de cubos como 2x2 o 4x4.
 
-🤝 Contribuciones
+### 🤝 Contribuciones
 
 Si deseas contribuir, haz un fork del repositorio y abre un Pull Request con tus mejoras. 🚀
