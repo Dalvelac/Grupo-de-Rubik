@@ -43,7 +43,7 @@ R U R' U' F2 D2 L'
 Luego, se imprimirá el estado del cubo en consola.
 
 # 📂 Estructura del Proyecto
-`
+```
 Proyecto/
  ├── include/              # Archivos de cabecera (.h)
  │    ├── EstadoCubo.h
@@ -56,7 +56,7 @@ Proyecto/
  ├── main.cpp              # Punto de entrada del programa
  ├── CMakeLists.txt        # Configuración de CMake
  ├── README.md             # Documentación
-`
+```
 
 ### ✨ Posibles Mejoras
 
