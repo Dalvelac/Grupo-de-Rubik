@@ -1,3 +1,5 @@
+https://github.com/Dalvelac/Grupo-de-Rubik/
+
 # 🧩 Simulador de Cubo de Rubik
 
 Este proyecto es un **simulador del Cubo de Rubik 3x3**, desarrollado en **C++**, que permite realizar movimientos y visualizar el estado actual del cubo en consola.
@@ -13,7 +15,7 @@ Este proyecto es un **simulador del Cubo de Rubik 3x3**, desarrollado en **C++**
 
 ### 1️⃣ Clonar el repositorio:
 
-git clone https://github.com/TU_USUARIO/Grupo-de-Rubik.git
+git clone https://github.com/Dalvelac/Grupo-de-Rubik
 cd Grupo-de-Rubik
 
 2️⃣ Compilar con CMake:
